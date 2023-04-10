@@ -60,7 +60,7 @@ optionImages.forEach((image, index) => {
             winVideoBox.style.display = "none";
             winVideoBox.pause();
             winVideoBox.currentTime = 0;
-          }, 9000);
+          }, 5000);
         
       } 
       else if (outComeValue == "Cpu") {
@@ -76,7 +76,7 @@ optionImages.forEach((image, index) => {
             loseVideoBox.style.display = "none";
             loseVideoBox.pause();
             loseVideoBox.currentTime = 0;
-          }, 10000);
+          }, 7000);
         
       }
       else {
