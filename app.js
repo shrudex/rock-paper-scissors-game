@@ -59,6 +59,7 @@ optionImages.forEach((image, index) => {
             winVideo.style.display = "none";
             winVideoBox.style.display = "none";
             winVideoBox.pause();
+            winVideoBox.currentTime = 0;
           }, 9000);
         
       } 
@@ -74,6 +75,7 @@ optionImages.forEach((image, index) => {
             loseVideo.style.display = "none";
             loseVideoBox.style.display = "none";
             loseVideoBox.pause();
+            loseVideoBox.currentTime = 0;
           }, 10000);
         
       }
