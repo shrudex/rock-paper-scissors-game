@@ -59,7 +59,7 @@ optionImages.forEach((image, index) => {
             winVideo.style.display = "none";
             winVideoBox.style.display = "none";
             winVideoBox.pause();
-          }, 10000);
+          }, 9000);
         
       } 
       else if (outComeValue == "Cpu") {
